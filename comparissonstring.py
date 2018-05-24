@@ -6,8 +6,10 @@ for i in range(0,n):
   if(s[i]==t[i]):
     s=t
   print(s)
+  break
 else:
   for i in range(0,n):
     if(s[i]>t[i]):
       r+=1
     print(t)
+    break
