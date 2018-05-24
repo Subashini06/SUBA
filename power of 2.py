@@ -1,6 +1,6 @@
-a=int(input("Enter the number:"))
+s=int(input("Enter the number:"))
 for x in range(0,100):
-  if(a==(2**x)):
+  if(s==(2**x)):
     print("yes")
     break
 else:
